@@ -475,17 +475,19 @@ button {
   border-radius: 50%;
 }
 
-.icon-comand {
-  width: 44px;
-  height: 44px;
-  fill: #ffffff;
-  border-radius: 50%;
+.comand-icon-link:hover,
+.comand-icon-link:focus {
+  background-color: var(--accent-color);
 }
 
-.icon-comand:hover {
-  fill: var(--accent-color);
-  background-color: #ffffff;
+.icon-comand {
+  fill: #afb1b8;
 }
+
+.icon-comand:hover,
+.icon-comand:focus {
+  fill: var(--h1-text-color);
+  
 
 /* Постоянные Клиенты */
 
