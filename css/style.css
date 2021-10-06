@@ -482,10 +482,9 @@ button {
   border-radius: 50%;
 }
 
-.comand-icon-link:hover .icon-comand,
-.comand-icon-link:focus {
+.icon-comand:hover {
   fill: var(--accent-color);
-  background-color: var(--accent-color);
+  background-color: #ffffff;
 }
 
 /* Постоянные Клиенты */
@@ -672,6 +671,8 @@ button {
 
 .btn-clouse {
   position: absolute;
+  display: flex;
+  align-items: center;
 
   width: 30px;
   height: 30px;
