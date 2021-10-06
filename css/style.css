@@ -487,8 +487,7 @@ button {
 .icon-comand:hover,
 .icon-comand:focus {
   fill: var(--h1-text-color);
-  
-
+}
 /* Постоянные Клиенты */
 
 .section-clients {
